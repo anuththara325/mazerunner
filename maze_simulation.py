@@ -209,13 +209,11 @@ def main():
             st.markdown("**Untrained Agent**")
             st.markdown(f"- Total Steps: {untrained_steps}")
             st.markdown(f"- Total Reward: {untrained_reward:.2f}")
-            st.markdown(f"- Time Taken: {elapsed_time:.2f}s")
             st.markdown(f"- Goal Reached: {'Yes' if untrained_done else 'No'}")
         with col2:
             st.markdown("**Trained Agent**")
             st.markdown(f"- Total Steps: {trained_steps}")
             st.markdown(f"- Total Reward: {trained_reward:.2f}")
-            st.markdown(f"- Time Taken: {elapsed_time:.2f}s")
             st.markdown(f"- Goal Reached: {'Yes' if trained_done else 'No'}")
 
 if __name__ == "__main__":
